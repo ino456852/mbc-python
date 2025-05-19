@@ -32,3 +32,4 @@
 # 해제하기
 # with zipfile.ZipFile('mytext.zip') as myzip:
 #     myzip.extractall()
+
