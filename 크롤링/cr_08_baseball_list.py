@@ -48,7 +48,7 @@ driver = get_browser("https://www.koreabaseball.com/Schedule/Schedule.aspx")
 time.sleep(3)
 
 # #boxList 안에 있는 각 경기 항목(li)을 모두 선택하여 텍스트 리스트로 저장
-t_list = find_text_list(driver, "#boxList")
+t_list = find_text_list(driver, "#boxCal")
 
 # 추출된 경기 정보를 한 줄씩 출력
 for t in t_list:
