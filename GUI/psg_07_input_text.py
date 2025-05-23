@@ -20,7 +20,7 @@ while True:
         age = values['-AGE-']
         password = values['-PASSWORD-']
         print(f"이름: {name}, 나이: {age}, 비밀번호: {password}")
-        if not age.isdigit(): # 간단한 유효성 검사
+        if not age.isdigit():
             sg.popup_error("나이는 숫자로 입력해주세요.")
 
 window.close()
